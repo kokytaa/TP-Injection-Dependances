@@ -2,7 +2,7 @@ package ma.enset.metier;
 
 import ma.enset.dao.IDao;
 
-public class MetierImpl {
+public class MetierImpl implements IMetier {
     private IDao dao;
 
     // Injection par constructeur
