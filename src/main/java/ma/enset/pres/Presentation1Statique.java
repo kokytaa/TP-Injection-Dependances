@@ -5,7 +5,7 @@ import ma.enset.dao.IDao;
 import ma.enset.metier.IMetier;
 import ma.enset.metier.MetierImpl;
 
-public class Presentation1 {
+public class Presentation1Statique {
     public static void main(String[] args) {
         IDao dao = new DaoImpl();
         IMetier metier = new MetierImpl(dao);
