@@ -1,5 +1,8 @@
 package ma.enset.dao;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class DaoImpl implements IDao {
     public double getData() {
         return Math.random() * 100;
