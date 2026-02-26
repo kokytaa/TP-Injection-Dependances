@@ -8,12 +8,12 @@ import ma.enset.metier.IMetier;
 import java.io.InputStream;
 import java.util.Scanner;
 
-public class presentation2 {
+public class presentation2Dynamique {
 
     public static void main(String[] args) throws Exception {
 
         InputStream input =
-                presentation2.class.getClassLoader()
+                presentation2Dynamique.class.getClassLoader()
                         .getResourceAsStream("config.txt");
 
         Scanner scanner = new Scanner(input);
